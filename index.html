@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Notas | Chris</title>
+</head>
+<body>
+    <!-- Popup Al agregar nueva nota -->
+    <div class="popup-box">
+        <div class="popup">
+            <div class="content">
+                <header>
+                    <p>Añadir Nueva Nota</p>
+                    <i class="fa-solid fa-xmark"></i>
+                </header>
+                <form action="#">
+                    <div class="row title">
+                        <label>Titulo</label>
+                        <input type="text">
+                    </div>
+                    <div class="row description">
+                        <label>Descripcion</label>
+                        <textarea placeholder="Escribir Nota"></textarea>
+                        <button>Añadir Nota</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Popup Al agregar nueva nota -->
+
+    <!-- Display de notas -->
+    <div class="wrapper">
+        <li class="add-box">
+            <div class="icon"><i class="fa-solid fa-plus"></i></div>
+            <p>Añadir Nota</p>
+        </li>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4db4dddf67.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
