@@ -16,6 +16,11 @@ body {
   gap: 20px;
   margin: 50px;
 }
+@media  screen and (max-width: 450px) {
+	.wrapper {
+		justify-content: center;
+	}
+}
 
 .wrapper li {
   height: 250px;
